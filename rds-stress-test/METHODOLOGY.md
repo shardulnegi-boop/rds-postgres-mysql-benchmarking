@@ -279,29 +279,6 @@ Both engines measured identically:
 
 ---
 
-## Files Created
-
-```
-infra/rds-stress-test/
-├── terraform/
-│   ├── main.tf              # All 27 AWS resources
-│   ├── variables.tf         # Region, instance types, credentials
-│   ├── outputs.tf           # Endpoints and instance IDs
-│   └── user-data.sh         # EC2 bootstrap script
-├── benchmark/
-│   ├── generate_data.py     # Pre-generate 20×1 GB TSV files
-│   ├── stress_test.py       # Ramp-to-failure orchestrator + workers
-│   └── requirements.txt     # Python dependencies
-├── results/
-│   ├── full_stress.log      # Complete test output (all rounds)
-│   └── stress_test_report.html  # Visual HTML report
-├── FINDINGS.md              # Results and recommendations
-├── METHODOLOGY.md           # This document
-└── .gitignore
-```
-
----
-
 ## Why This Worked (vs. the First Experiment)
 
 | | Experiment v1 | Experiment v2 (this one) |
