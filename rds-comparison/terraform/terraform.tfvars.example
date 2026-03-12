@@ -1,0 +1,10 @@
+# Copy this to terraform.tfvars and fill in values
+# cp terraform.tfvars.example terraform.tfvars
+
+region               = "us-east-1"
+aurora_instance_class = "db.r7g.4xlarge"  # 16 vCPU, 128 GB RAM
+ec2_instance_type    = "c7g.4xlarge"      # 16 vCPU, 32 GB RAM
+db_username          = "benchadmin"
+db_password          = "YourSecureP@ssw0rd!"
+ssh_public_key       = "ssh-rsa AAAA... your-key"
+ssh_cidr             = "YOUR_IP/32"       # e.g., "203.0.113.50/32"

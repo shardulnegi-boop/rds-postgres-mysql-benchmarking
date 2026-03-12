@@ -1,0 +1,6 @@
+.benchmark_info
+terraform.tfstate*
+terraform.tfvars
+.terraform/
+*.tfplan
+results/
