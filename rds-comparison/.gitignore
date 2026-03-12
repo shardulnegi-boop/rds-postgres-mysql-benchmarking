@@ -3,4 +3,3 @@ terraform.tfstate*
 terraform.tfvars
 .terraform/
 *.tfplan
-results/
