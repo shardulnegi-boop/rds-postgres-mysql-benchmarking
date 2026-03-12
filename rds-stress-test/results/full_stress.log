@@ -1,0 +1,594 @@
+=== Starting PostgreSQL Stress Test ===
+
+================================================================================
+  POSTGRESQL RAMP-TO-FAILURE STRESS TEST
+  Instance: db.r7g.4xlarge | Ramp: +4 workers/round | 60s/round
+  Data files: 20 x 1024 MB
+================================================================================
+  [PG] Created UNLOGGED table (no PK, no indexes) on stress-pg.cluster-chmyywwu8h83.us-east-2.rds.amazonaws.com
+
+--- Round 1: 4 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |    819.2 MB/s instant |    136.5 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |    117.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |    102.4 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |     91.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |     81.9 MB/s avg | errors: 0
+     55s |    819.2 MB/s instant |    148.9 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |    136.5 MB/s avg | errors: 0
+
+  Result: 153.8 MB/s | 7,362,800 rows | 12.00 GB | 0 errors
+
+--- Round 2: 8 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |   1638.4 MB/s instant |    148.9 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |    136.5 MB/s avg | errors: 0
+
+  Result: 158.9 MB/s | 9,817,065 rows | 16.00 GB | 0 errors
+
+--- Round 3: 12 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 168.0 MB/s | 7,362,798 rows | 12.00 GB | 0 errors
+
+--- Round 4: 16 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 166.0 MB/s | 9,817,065 rows | 16.00 GB | 0 errors
+
+--- Round 5: 20 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 152.5 MB/s | 11,044,197 rows | 18.00 GB | 0 errors
+  >> Throughput dropped (153 vs 166), possible saturation
+
+--- Round 6: 24 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 165.6 MB/s | 14,725,596 rows | 24.00 GB | 0 errors
+
+--- Round 7: 28 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 171.6 MB/s | 15,952,729 rows | 26.00 GB | 0 errors
+
+--- Round 8: 32 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 174.5 MB/s | 19,634,128 rows | 32.00 GB | 0 errors
+
+--- Round 9: 36 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 183.9 MB/s | 22,088,395 rows | 36.00 GB | 0 errors
+
+--- Round 10: 40 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 172.0 MB/s | 24,542,660 rows | 40.00 GB | 0 errors
+  >> Throughput dropped (172 vs 184), possible saturation
+
+--- Round 11: 44 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 192.0 MB/s | 26,996,926 rows | 44.00 GB | 0 errors
+
+--- Round 12: 48 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 181.4 MB/s | 29,451,192 rows | 48.00 GB | 0 errors
+  >> Throughput dropped (181 vs 192), possible saturation
+
+--- Round 13: 52 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 174.3 MB/s | 30,678,326 rows | 50.00 GB | 0 errors
+
+--- Round 14: 56 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 181.4 MB/s | 34,359,725 rows | 56.00 GB | 0 errors
+
+--- Round 15: 60 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 136.7 MB/s | 35,586,858 rows | 58.00 GB | 0 errors
+  >> Throughput dropped (137 vs 181), possible saturation
+
+--- Round 16: 64 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 109.5 MB/s | 39,268,256 rows | 64.00 GB | 0 errors
+  >> Throughput dropped (109 vs 137), possible saturation
+
+================================================================================
+  POSTGRESQL STRESS TEST SUMMARY
+================================================================================
+  DID NOT BREAK (reached 64 workers)
+  PEAK:         192.0 MB/s at 44 workers
+  ROUNDS:       16
+
+  Round |  Workers |       MB/s |  Data GB |           Rows |  Errors
+  -----------------------------------------------------------------
+      1 |        4 |    153.8  |   12.00 |      7,362,800 |       0
+      2 |        8 |    158.9  |   16.00 |      9,817,065 |       0
+      3 |       12 |    168.0  |   12.00 |      7,362,798 |       0
+      4 |       16 |    166.0  |   16.00 |      9,817,065 |       0
+      5 |       20 |    152.5  |   18.00 |     11,044,197 |       0
+      6 |       24 |    165.6  |   24.00 |     14,725,596 |       0
+      7 |       28 |    171.6  |   26.00 |     15,952,729 |       0
+      8 |       32 |    174.5  |   32.00 |     19,634,128 |       0
+      9 |       36 |    183.9  |   36.00 |     22,088,395 |       0
+     10 |       40 |    172.0  |   40.00 |     24,542,660 |       0
+     11 |       44 |    192.0  |   44.00 |     26,996,926 |       0
+     12 |       48 |    181.4  |   48.00 |     29,451,192 |       0
+     13 |       52 |    174.3  |   50.00 |     30,678,326 |       0
+     14 |       56 |    181.4  |   56.00 |     34,359,725 |       0
+     15 |       60 |    136.7  |   58.00 |     35,586,858 |       0
+     16 |       64 |    109.5  |   64.00 |     39,268,256 |       0
+
+JSON_RESULT:{"engine": "postgresql", "broke": false, "failure_reason": null, "peak_mbps": 192.0, "peak_workers": 44, "breaking_workers": null, "breaking_mbps": null, "rounds": [{"round": 1, "workers": 4, "avg_mbps": 153.8, "total_gb": 12.0, "total_rows": 7362800, "errors": 0, "duration_sec": 79.9}, {"round": 2, "workers": 8, "avg_mbps": 158.9, "total_gb": 16.0, "total_rows": 9817065, "errors": 0, "duration_sec": 103.1}, {"round": 3, "workers": 12, "avg_mbps": 168.0, "total_gb": 12.0, "total_rows": 7362798, "errors": 0, "duration_sec": 73.2}, {"round": 4, "workers": 16, "avg_mbps": 166.0, "total_gb": 16.0, "total_rows": 9817065, "errors": 0, "duration_sec": 98.7}, {"round": 5, "workers": 20, "avg_mbps": 152.5, "total_gb": 18.0, "total_rows": 11044197, "errors": 0, "duration_sec": 120.8}, {"round": 6, "workers": 24, "avg_mbps": 165.6, "total_gb": 24.0, "total_rows": 14725596, "errors": 0, "duration_sec": 148.4}, {"round": 7, "workers": 28, "avg_mbps": 171.6, "total_gb": 26.0, "total_rows": 15952729, "errors": 0, "duration_sec": 155.1}, {"round": 8, "workers": 32, "avg_mbps": 174.5, "total_gb": 32.0, "total_rows": 19634128, "errors": 0, "duration_sec": 187.8}, {"round": 9, "workers": 36, "avg_mbps": 183.9, "total_gb": 36.0, "total_rows": 22088395, "errors": 0, "duration_sec": 200.5}, {"round": 10, "workers": 40, "avg_mbps": 172.0, "total_gb": 40.0, "total_rows": 24542660, "errors": 0, "duration_sec": 238.2}, {"round": 11, "workers": 44, "avg_mbps": 192.0, "total_gb": 44.0, "total_rows": 26996926, "errors": 0, "duration_sec": 234.7}, {"round": 12, "workers": 48, "avg_mbps": 181.4, "total_gb": 48.0, "total_rows": 29451192, "errors": 0, "duration_sec": 270.9}, {"round": 13, "workers": 52, "avg_mbps": 174.3, "total_gb": 50.0, "total_rows": 30678326, "errors": 0, "duration_sec": 293.7}, {"round": 14, "workers": 56, "avg_mbps": 181.4, "total_gb": 56.0, "total_rows": 34359725, "errors": 0, "duration_sec": 316.1}, {"round": 15, "workers": 60, "avg_mbps": 136.7, "total_gb": 58.0, "total_rows": 35586858, "errors": 0, "duration_sec": 434.6}, {"round": 16, "workers": 64, "avg_mbps": 109.5, "total_gb": 64.0, "total_rows": 39268256, "errors": 0, "duration_sec": 598.7}], "timestamp": "2026-03-12T07:36:44.363248"}
+
+=== Starting MySQL Stress Test ===
+
+================================================================================
+  MYSQL RAMP-TO-FAILURE STRESS TEST
+  Instance: db.r7g.4xlarge | Ramp: +4 workers/round | 60s/round
+  Data files: 20 x 1024 MB
+================================================================================
+  [MySQL] Created table (no PK, no indexes) on stress-mysql.cluster-chmyywwu8h83.us-east-2.rds.amazonaws.com
+
+--- Round 1: 4 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 66.1 MB/s | 2,454,266 rows | 4.00 GB | 0 errors
+
+--- Round 2: 8 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 50.5 MB/s | 4,294,965 rows | 7.00 GB | 0 errors
+
+--- Round 3: 12 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 34.0 MB/s | 4,294,965 rows | 7.00 GB | 0 errors
+  >> Throughput dropped (34 vs 50), possible saturation
+
+--- Round 4: 16 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 20.7 MB/s | 3,681,399 rows | 6.00 GB | 0 errors
+  >> Throughput dropped (21 vs 34), possible saturation
+
+--- Round 5: 20 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 0.0 MB/s | 0 rows | 0.00 GB | 0 errors
+  >> Throughput dropped (0 vs 21), possible saturation
+
+--- Round 6: 24 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 0.0 MB/s | 0 rows | 0.00 GB | 0 errors
+
+--- Round 7: 28 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 0.0 MB/s | 0 rows | 0.00 GB | 0 errors
+
+--- Round 8: 32 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 0.0 MB/s | 0 rows | 0.00 GB | 0 errors
+
+--- Round 9: 36 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 0.0 MB/s | 0 rows | 0.00 GB | 0 errors
+
+--- Round 10: 40 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 0.0 MB/s | 0 rows | 0.00 GB | 0 errors
+
+--- Round 11: 44 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 0.0 MB/s | 0 rows | 0.00 GB | 0 errors
+
+--- Round 12: 48 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 0.0 MB/s | 0 rows | 0.00 GB | 0 errors
+
+--- Round 13: 52 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 0.0 MB/s | 0 rows | 0.00 GB | 0 errors
+
+--- Round 14: 56 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 0.0 MB/s | 0 rows | 0.00 GB | 0 errors
+
+--- Round 15: 60 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 0.0 MB/s | 0 rows | 0.00 GB | 0 errors
+
+--- Round 16: 64 workers ---
+      5s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     10s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     15s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     20s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     25s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     30s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     35s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     40s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     45s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     50s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     55s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+     60s |      0.0 MB/s instant |      0.0 MB/s avg | errors: 0
+
+  Result: 0.0 MB/s | 0 rows | 0.00 GB | 0 errors
+
+================================================================================
+  MYSQL STRESS TEST SUMMARY
+================================================================================
+  DID NOT BREAK (reached 64 workers)
+  PEAK:         66.1 MB/s at 4 workers
+  ROUNDS:       16
+
+  Round |  Workers |       MB/s |  Data GB |           Rows |  Errors
+  -----------------------------------------------------------------
+      1 |        4 |     66.1  |    4.00 |      2,454,266 |       0
+      2 |        8 |     50.5  |    7.00 |      4,294,965 |       0
+      3 |       12 |     34.0  |    7.00 |      4,294,965 |       0
+      4 |       16 |     20.7  |    6.00 |      3,681,399 |       0
+      5 |       20 |      0.0  |    0.00 |              0 |       0
+      6 |       24 |      0.0  |    0.00 |              0 |       0
+      7 |       28 |      0.0  |    0.00 |              0 |       0
+      8 |       32 |      0.0  |    0.00 |              0 |       0
+      9 |       36 |      0.0  |    0.00 |              0 |       0
+     10 |       40 |      0.0  |    0.00 |              0 |       0
+     11 |       44 |      0.0  |    0.00 |              0 |       0
+     12 |       48 |      0.0  |    0.00 |              0 |       0
+     13 |       52 |      0.0  |    0.00 |              0 |       0
+     14 |       56 |      0.0  |    0.00 |              0 |       0
+     15 |       60 |      0.0  |    0.00 |              0 |       0
+     16 |       64 |      0.0  |    0.00 |              0 |       0
+
+JSON_RESULT:{"engine": "mysql", "broke": false, "failure_reason": null, "peak_mbps": 66.1, "peak_workers": 4, "breaking_workers": null, "breaking_mbps": null, "rounds": [{"round": 1, "workers": 4, "avg_mbps": 66.1, "total_gb": 4.0, "total_rows": 2454266, "errors": 0, "duration_sec": 62.0}, {"round": 2, "workers": 8, "avg_mbps": 50.5, "total_gb": 7.0, "total_rows": 4294965, "errors": 0, "duration_sec": 142.0}, {"round": 3, "workers": 12, "avg_mbps": 34.0, "total_gb": 7.0, "total_rows": 4294965, "errors": 0, "duration_sec": 210.6}, {"round": 4, "workers": 16, "avg_mbps": 20.7, "total_gb": 6.0, "total_rows": 3681399, "errors": 0, "duration_sec": 296.1}, {"round": 5, "workers": 20, "avg_mbps": 0.0, "total_gb": 0.0, "total_rows": 0, "errors": 0, "duration_sec": 360.3}, {"round": 6, "workers": 24, "avg_mbps": 0.0, "total_gb": 0.0, "total_rows": 0, "errors": 0, "duration_sec": 420.4}, {"round": 7, "workers": 28, "avg_mbps": 0.0, "total_gb": 0.0, "total_rows": 0, "errors": 0, "duration_sec": 480.4}, {"round": 8, "workers": 32, "avg_mbps": 0.0, "total_gb": 0.0, "total_rows": 0, "errors": 0, "duration_sec": 540.4}, {"round": 9, "workers": 36, "avg_mbps": 0.0, "total_gb": 0.0, "total_rows": 0, "errors": 0, "duration_sec": 600.5}, {"round": 10, "workers": 40, "avg_mbps": 0.0, "total_gb": 0.0, "total_rows": 0, "errors": 0, "duration_sec": 660.6}, {"round": 11, "workers": 44, "avg_mbps": 0.0, "total_gb": 0.0, "total_rows": 0, "errors": 0, "duration_sec": 720.6}, {"round": 12, "workers": 48, "avg_mbps": 0.0, "total_gb": 0.0, "total_rows": 0, "errors": 0, "duration_sec": 780.7}, {"round": 13, "workers": 52, "avg_mbps": 0.0, "total_gb": 0.0, "total_rows": 0, "errors": 0, "duration_sec": 840.8}, {"round": 14, "workers": 56, "avg_mbps": 0.0, "total_gb": 0.0, "total_rows": 0, "errors": 0, "duration_sec": 900.8}, {"round": 15, "workers": 60, "avg_mbps": 0.0, "total_gb": 0.0, "total_rows": 0, "errors": 0, "duration_sec": 960.9}, {"round": 16, "workers": 64, "avg_mbps": 0.0, "total_gb": 0.0, "total_rows": 0, "errors": 0, "duration_sec": 1021.0}], "timestamp": "2026-03-12T10:51:28.763478"}
+=== ALL TESTS COMPLETE ===
