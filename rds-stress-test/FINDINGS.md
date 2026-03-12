@@ -124,4 +124,4 @@ However, the fundamental problem remains:
 | ClickHouse / Redshift | Purpose-built columnar analytics | Yes natively |
 | Hybrid (ClickHouse hot + Aurora warm) | Best of both worlds | Yes |
 
-**Switching to Aurora PostgreSQL buys 3x headroom over MySQL** (192 vs 66 MB/s), and PostgreSQL degrades gracefully instead of stalling. But alone, it won't reach 1 GB/s. You'll still need sharding or a buffering layer.
+
